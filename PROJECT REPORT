@@ -1,0 +1,34 @@
+📝 Project Report: 
+
+VIT Wi-Fi Service Assistance Script
+
+1. Introduction:
+The VIT Wi-Fi Service Assistance Script was developed to streamline the process of reporting and resolving common campus Wi-Fi issues
+By using an interactive command-line interface, the script collects necessary user data upfront and immediately offers basic fixes, reducing the burden on the CTS (Campus Technology Services) help desk for simple, self-resolvable issues.
+
+2. Objectives Efficiency:
+Reduce the time spent by IT support staff on initial data collection and basic problem diagnosis.User Experience: Provide students with immediate, relevant troubleshooting advice.Data Integrity: 
+Ensure critical user identifiers (like Registration Number) are confirmed by the user.
+
+3. Technical Implementation Details:
+
+3.1. User Input and Validation:
+The script utilizes the input() function to gather data from the user.
+
+Registration Number Validation: A while loop is used to repeatedly prompt the user 
+until they confirm the number is correct and the number has a length of 10 digits.
+
+3.2. Credential Verification:
+Similar while loops are used to confirm the correctness of the entered Password.
+
+
+4. Future Scope:
+
+Enhanced Input Validation: Implement checks for registration number format (e.g., must start with a letter) and password complexity.
+
+Log Generation: Add functionality to log the user's input and the chosen problem category to a file (CSV or JSON) for later analysis by the CTS team.
+
+Secure Password Input: Use Python's getpass module to mask the password input on the screen.
+
+Integration: Develop a web or mobile interface to replace the command-line interface for better accessibility.
+
